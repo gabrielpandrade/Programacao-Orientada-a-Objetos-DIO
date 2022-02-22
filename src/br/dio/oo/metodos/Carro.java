@@ -43,7 +43,7 @@ public class Carro {
         this.capacidadeTanque = capacidadeTanque;
     }
 
-    double totalValorTanque(double valorCombustivel){
-        return getCapacidadeTanque()*valorCombustivel;
+    public double totalValorTanque(double valorCombustivel){
+        return capacidadeTanque*valorCombustivel;
     }
 }
